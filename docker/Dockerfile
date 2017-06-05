@@ -1,0 +1,5 @@
+FROM postgres
+
+ENV POSTGRES_PASSWORD=dampf
+ENV POSTGRES_USER=hans
+ENV POSTGRES_DB=todoapp
